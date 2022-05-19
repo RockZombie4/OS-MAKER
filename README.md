@@ -18,7 +18,7 @@ There is a well known bug which will write another color on top of a color witho
 **src.asm:**
 
 --------
-
+```
 ; --------------FILE AUTO GENERATED ON: 2022-05-19-----------
 MOV AH, 06h    ; Scroll up function
 XOR AL, AL     ; Clear entire screen
@@ -27,7 +27,7 @@ MOV DX, 184FH  ; lower right corner DH=row, DL=column
 MOV BH, 1Eh    ; YellowOnBlue
 INT 10H
 
-``` ; --------------FILE AUTO GENERATED ON: 2022-05-19-----------
+; --------------FILE AUTO GENERATED ON: 2022-05-19-----------
 MOV AH, 06h    ; Scroll up function
 XOR AL, AL     ; Clear entire screen
 XOR CX, CX     ; Upper left corner CH=row, CL=column
