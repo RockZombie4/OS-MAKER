@@ -26,7 +26,8 @@ XOR CX, CX     ; Upper left corner CH=row, CL=column
 MOV DX, 184FH  ; lower right corner DH=row, DL=column 
 MOV BH, 1Eh    ; YellowOnBlue
 INT 10H
-; --------------FILE AUTO GENERATED ON: 2022-05-19-----------
+
+``` ; --------------FILE AUTO GENERATED ON: 2022-05-19-----------
 MOV AH, 06h    ; Scroll up function
 XOR AL, AL     ; Clear entire screen
 XOR CX, CX     ; Upper left corner CH=row, CL=column
@@ -80,7 +81,7 @@ jmp $ ; jump to current address = infinite loop
 ; padding and magic number
 times 510 - ($-$$) db 0
 dw 0xaa55 
-
+```
 
 --------
 
