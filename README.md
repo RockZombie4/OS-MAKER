@@ -119,7 +119,7 @@ if you want yellow/blue.
 
 
 # Compilation:
-To compile and run: src.asm, you would need to figure out a way to get it on rea hardware, BUT, you can run the file in a "virtual machine". A virtual machine in a nutshell is fake hardware running on an OS which runs on real hardware. To compile, just use this command for installing the compiler:
+To compile and run: src.asm, you would need to figure out a way to get it on real hardware, BUT, you can run the file in a "virtual machine". A virtual machine in a nutshell is fake hardware running on an OS which runs on real hardware. To compile, just use this command for installing the compiler:
 
 `sudo apt install nasm    # for debian/debian-based distros`
 `sudo pacman -S nasm      # for arch/arch-based distros`
