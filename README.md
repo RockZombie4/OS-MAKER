@@ -123,17 +123,31 @@ if you want yellow/blue.
 # Compilation:
 To compile and run: src.asm, you would need to figure out a way to get it on real hardware, BUT, you can run the file in a "virtual machine". A virtual machine in a nutshell is fake hardware running on an OS which runs on real hardware. To compile, just use this command for installing the compiler:
 
+
 `sudo apt install nasm    # for debian/debian-based distros`
+
 `sudo pacman -S nasm      # for arch/arch-based distros`
+
 
 to run on the virtual machine, you must first install it with:
 `sudo apt install qemu-system-x86_64    # for debian/debian based distros`
+
 `sudo pacman -S qemu-system-x86_64      # for arch/arch-based distros`
 
+
+
 to compile, you must use:
+
 `nasm -f bin src.asm -o src.bin`
+
+
+
 to run on the virtual machine, you must use:
+
+
 `qemu-system-x86_64 src.bin`
+
+
 if you followed the instructions here, you should see something like this:
 ![image](https://user-images.githubusercontent.com/100057184/169425676-f9ac7109-3360-420f-b08b-78ed760ad7a7.png)
 _of course, your result will vary depending on how you used the automated script..._
