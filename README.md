@@ -130,6 +130,7 @@ To compile and run: src.asm, you would need to figure out a way to get it on rea
 
 
 to run on the virtual machine, you must first install it with:
+
 `sudo apt install qemu-system-x86_64    # for debian/debian based distros`
 
 `sudo pacman -S qemu-system-x86_64      # for arch/arch-based distros`
