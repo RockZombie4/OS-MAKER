@@ -116,6 +116,8 @@ if you want yellow/blue.
 (Sometimes, there may NOT be: "; --------------FILE AUTO GENERATED ON: [Date]-----------", but don't worry! Just delete the code which would be under that if "; --------------FILE AUTO GENERATED ON: [Date]-----------" was there, as **";"** is just a comment in assembly.)
 
 
+**if you still didn't understand, there will be two demos of the program soon!!!**
+
 
 
 # Compilation:
