@@ -151,6 +151,8 @@ to run on the virtual machine, you must use:
 
 if you followed the instructions here, you should see something like this:
 ![image](https://user-images.githubusercontent.com/100057184/169425676-f9ac7109-3360-420f-b08b-78ed760ad7a7.png)
+
+
 _of course, your result will vary depending on how you used the automated script..._
 
 
